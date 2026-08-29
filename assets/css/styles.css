@@ -697,5 +697,13 @@ textarea { resize: vertical; }
 @media (max-width: 520px) {
   .hero { padding: 88px 0 72px; }
   .section { padding: 68px 0; }
+  /* Real bug, caught via a real 390px-wide screenshot: logo + header CTA +
+     menu button don't fit this narrow without wrapping, and none of them
+     were set to shrink or wrap — the CTA button and even the menu toggle
+     were pushed off-screen to the right, invisible and unreachable. The
+     hero's own "Get a Free Quote" button is right below the fold anyway,
+     so drop the header's copy on the smallest screens and keep the header
+     to just the logo and the menu toggle. */
+  .header-actions .btn-primary { display: none; }
   .hero-actions .btn { flex: 1 1 auto; }
 }
