@@ -1,0 +1,47 @@
+title: Ironpeak Construction Co.
+description: >-
+  Licensed general contractor serving the Denver metro — custom home builds,
+  renovations, additions, and commercial buildouts, delivered on schedule
+  and on budget.
+url: "https://garmorpro.github.io"
+baseurl: "/ironpeak-construction"
+lang: en_US
+
+# Used by jekyll-seo-tag for Organization/LocalBusiness-style defaults.
+# No social image is set — add one at /assets/img/social-card.png and set
+# `logo:` here once real branding exists, so shared links get a preview image.
+author:
+  name: Ironpeak Construction Co.
+
+business:
+  name: Ironpeak Construction Co.
+  phone: "+1-303-555-0142"
+  phone_display: "(303) 555-0142"
+  email: hello@ironpeakconstruction.example
+  street: 4820 Ridge Meadow Rd
+  city: Golden
+  region: CO
+  postal_code: "80401"
+  license: "CO-GC-000000"
+  founded: 2007
+  years_building: 18
+  hours: "Mon–Fri, 7am–5pm MT"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules

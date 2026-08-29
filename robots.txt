@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garmorpro.github.io/ironpeak-construction/sitemap.xml
