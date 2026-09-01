@@ -6,6 +6,7 @@ source "https://rubygems.org"
 # needed here — this site uses no theme, just two plugins.
 gem "jekyll", "3.10.0"
 gem "kramdown-parser-gfm"
+gem "bigdecimal"
 
 group :jekyll_plugins do
   gem "jekyll-seo-tag", "2.8.0"
