@@ -3,8 +3,8 @@ description: >-
   Licensed general contractor serving the Denver metro — custom home builds,
   renovations, additions, and commercial buildouts, delivered on schedule
   and on budget.
-url: "https://garmorpro.github.io"
-baseurl: "/ironpeak-construction"
+url: ""
+baseurl: ""
 lang: en_US
 
 # Used by jekyll-seo-tag for Organization/LocalBusiness-style defaults.
